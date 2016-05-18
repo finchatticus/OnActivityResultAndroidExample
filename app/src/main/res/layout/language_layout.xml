@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ua"
+            android:id="@+id/buttonUA" android:layout_alignParentLeft="true" android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="0dp" android:onClick="onSelectedLanguage"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ru"
+            android:id="@+id/buttonRU" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/buttonUA"
+            android:onClick="onSelectedLanguage"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_en"
+            android:id="@+id/buttonEN" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/buttonRU"
+            android:onClick="onSelectedLanguage"/>
+</RelativeLayout>

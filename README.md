@@ -1,0 +1,1 @@
+Example OnActivityResult + resultCode in Android.

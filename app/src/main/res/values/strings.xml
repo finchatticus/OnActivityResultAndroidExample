@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnActivityResultAndroidExample</string>
+    
+    <string name="textview_name">Hello! What is your name?</string>
+    <string name="textview_language">Language:</string>
+    <string name="button_name">Name</string>
+    <string name="button_language">Language</string>
+    <string name="textview_your_name">Enter your name:</string>
+    <string name="button_ua">Ukrainian</string>
+    <string name="button_ru">Russian</string>
+    <string name="button_en">English</string>
+</resources>

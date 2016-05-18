@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_name"
+            android:id="@+id/textViewName" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_language"
+            android:id="@+id/textViewLanguage" android:layout_below="@+id/textViewName" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_name"
+            android:id="@+id/buttonName" android:layout_below="@+id/textViewLanguage" android:layout_alignParentLeft="true"
+            android:onClick="onShow"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_language"
+            android:id="@+id/buttonLanguage" android:layout_below="@+id/textViewLanguage" android:layout_alignParentRight="true"
+            android:onClick="onShow"/>
+</RelativeLayout>
